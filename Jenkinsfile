@@ -1,10 +1,8 @@
 pipeline {
-
      agent {
-        label 'workstation'}
-
+        label 'workstation'
+        }
      stages {
-
         stage('Hello') {
         steps {
            echo 'Hello World'
